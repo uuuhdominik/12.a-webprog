@@ -12,7 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: darkslateblue;
     color: white;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,4 +36,13 @@ body {
 #demo > p {
     font-size: 2rem;
     text-align: center;
+}
+
+#demo > img {
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+    object-fit: contain;
+
 }
